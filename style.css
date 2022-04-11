@@ -1,0 +1,102 @@
+
+  body{
+    margin: 0;
+    font-family:Helvetica, sans-serif ;
+    font:400 130%/1,5 Helvetica, sans-serif ; 
+}
+
+.h{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    background-image: linear-gradient(to right, red,purple,blue);    
+}
+
+.h h1 {
+    color: #D8F1F8;
+    }
+
+    .h menu{
+    display: flex;
+    color: white;
+    padding-right: 13%;
+    }
+
+ .h menu h2{
+          justify-content: space-between;
+          padding-right: 15%;
+        }
+
+     section{
+            margin: 0px;
+            padding: 100px; 
+            background-image: url("image/photo.png");
+            background-size: cover;
+}
+
+     .sub{
+             display: block;
+             background-color: #FF0000;
+             margin-left: 40%;
+             margin-right:40%;
+}
+
+     .z {
+          background-color:black;
+          width: 70%;
+          margin-left:auto ;
+          margin-right: auto;
+          text-align: center;
+          padding-bottom: 30px;
+    }
+
+    .z h2 {
+          color: white;
+          text-align: center;
+
+    }
+  
+
+     li {
+         list-style-type: none;
+         font-size: 13pt;
+    }
+    .ip {
+          background-color:black;
+          width: 70%;
+          margin-left:auto ;
+          margin-right: auto;
+          text-align: center;
+          padding-bottom: 30px;
+
+}
+    .ip h2 {
+           color: white;
+           text-align: center;
+    }
+
+    .bi {
+         background-color:black;
+         width: 70%;
+         margin-left:auto ;
+         margin-right: auto;
+         text-align: center;
+         padding-bottom: 30px;
+     
+        }
+
+        .bi h2 {
+            color: white;
+            text-align: center;
+        }
+    
+         input {
+               font-size: 20pt;
+    }
+         input:focus, textarea:focus{
+                background-color:  lightyellow;
+    }
+          input submit {
+                font-size: 1pt;
+    }
+    

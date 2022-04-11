@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Matrice Test technique Full-Stack !</title>
+      <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body onload='document.form1.text1.focus()'
+    onload='document.form2.text2.focus()'
+    onload='document.form3.text3.focus()'>
+        
+        <header  class="h"> 
+                 <h1>  Matrice  </h1>
+            <menu>
+                 <h2>  Accueil  </h2>
+                 <h2>  Zsearch  </h2>
+                 <h2>  Carte    </h2>
+                 <h2>  Contact  </h2>
+            </menu>
+        </header>
+        <section> 
+
+           
+                 <div class="z">
+                    <h2>Search_Z</h2> 
+
+                <form name="form1" action="#"> 
+                    <ul>
+                        <li><input type='text' name='test1'/></li>
+                        <P></P>
+                        <li class="submit"><input type="submit" name="submit" value="lancer" onclick="search_Z (document.form1.text)"/></li>
+                        <P></P>
+                    </ul>
+                </form>
+
+                  </div>
+                    
+
+                <div class="ip">
+                    <h2>Ip_Validator</h2>
+                    <form name="form2" action="#"> 
+                            <ul>
+                                <li><input type='text' name='Test2'/></li>
+                                <P></P>
+                                <li class="submit"><input type="submit" name="submit" value="lancer" onclick="ip_Validator (document.form2.ipAddress)"/></li>
+                                <P></P>
+                            </ul>
+                   </form>
+                </div>
+                   
+
+
+
+               <div class="bi">
+                         <h2>Bigram</h2>
+                    <form name="form3" action="#"> 
+                                <ul>
+                                   <li><input type='text' name='test3'/></li>
+                                   <P></P>
+                                   <li class="sub"><input type="submit" name="submit" value="lancer" onclick="bigram (document.form3.text)"/></li>
+                                   <P></P>
+                                </ul>
+                    </form>
+            </div>
+                          
+            
+        </section>                            
+                                         <script src="search_Z.js"></script>
+                                        <script src="ip_Validator.js"></script>
+                                        <script src="bigram.js"></script>
+    </body>
+</html> 
